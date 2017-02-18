@@ -3,5 +3,5 @@ library(plumber)
 r <- plumb("backend_example.R")
 # DEFINING GROUP NUMBER
 GROUP_NUMBER = 02
-# THIS WILL BE AVAILABLE AT http://p01.piterdata.ninja
+# THIS WILL BE AVAILABLE 
 r$run(port=8100 + GROUP_NUMBER)
